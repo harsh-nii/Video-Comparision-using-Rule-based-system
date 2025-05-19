@@ -5,7 +5,6 @@ This Python project evaluates and compares the quality of two videos based on va
 ---
 
 ## Features
-
 - Frame extraction from videos
 - Video quality metrics:
   - Brightness: Measures average pixel intensity in HSV color space (ideal range: 100–200).
@@ -17,7 +16,6 @@ This Python project evaluates and compares the quality of two videos based on va
 ---
 
 ## Requirements
-
 - Python 3.x
 - OpenCV
 - NumPy
