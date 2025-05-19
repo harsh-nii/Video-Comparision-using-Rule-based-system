@@ -7,16 +7,12 @@ This Python project evaluates and compares the quality of two videos based on va
 ## Features
 
 - Frame extraction from videos
-- Multiple video quality metrics:
-  - Sharpness
-  - Brightness
-  - Contrast
-  - Colorfulness
-  - Motion blur detection
-  - Edge density
-  - Scene change detection
-  - Face visibility detection
-- Weighted scoring system to select the better-quality video
+- Video quality metrics:
+  - Brightness: Measures average pixel intensity in HSV color space (ideal range: 100–200).
+  - Contrast: Calculates standard deviation of pixel intensities in grayscale.
+  - Sharpness: Uses Laplacian variance to assess edge strength.
+  - Face Detection: Detects faces using Haar cascades and evaluates their centrality in the frame.
+  - Rule-Based Scoring: Prioritizes videos with more centered faces, balanced brightness, high contrast, and high sharpness.
 
 ---
 
