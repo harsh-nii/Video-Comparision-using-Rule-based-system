@@ -1,13 +1,13 @@
-# 📊 Video Quality Comparison Tool
+# Video Comparision using Rule Based System
 
 This Python project evaluates and compares the quality of two videos based on various visual features. It uses OpenCV and NumPy to analyze key aspects such as sharpness, brightness, contrast, colorfulness, motion blur, edge density, and more to determine which video is visually superior.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Frame extraction from videos
-- ✅ Multiple video quality metrics:
+- Frame extraction from videos
+- Multiple video quality metrics:
   - Sharpness
   - Brightness
   - Contrast
@@ -16,11 +16,11 @@ This Python project evaluates and compares the quality of two videos based on va
   - Edge density
   - Scene change detection
   - Face visibility detection
-- ✅ Weighted scoring system to select the better-quality video
+- Weighted scoring system to select the better-quality video
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 - Python 3.x
 - OpenCV
